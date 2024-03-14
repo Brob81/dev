@@ -1,0 +1,118 @@
+.container {
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 4px; 
+    padding: 0px; 
+    max-width: 80%;
+}
+
+
+.container .tableHeader{
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.container .tableHeader td {
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    height: 44px; 
+    background-color: #f1f1f1;
+}
+
+.container tbody .editTableCell {
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+}
+
+.container tbody .editTableImg {
+    position: absolute;
+    width: 20px;
+    left: 25px;
+    top:12px;
+}
+
+
+.container tbody .tableValues>td {
+    position: relative;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 44px;
+    border-top: 1px solid silver;
+}
+
+.container tbody .tableValues:hover {
+    background-color: #e9e9e9;
+}
+
+.container .blue {
+    display:inline-block;
+    width: 12px; 
+    height: 12px;
+    border-radius: 100px; 
+    background-color: #00a2ff;
+}
+
+.container .red {
+    display:inline-block;
+    width: 12px; 
+    height: 12px;
+    border-radius: 100px; 
+    background-color: #ff0000;
+}
+
+.container .applicantDetailsContainer {
+    text-align: center;
+    padding: 20px; 
+}
+
+.container .applicantDetailsValuesContainer {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.container .left {
+    float: left;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    // border: 1px solid red;
+}
+
+.container .right {
+    float: right;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    // border: 1px solid blue;
+}
+
+.detailsRow {
+    padding: 60px;
+    height: 50px; 
+    text-align: center;
+}
+
+.detailsRow .applicantDetailTitle {
+    font-weight: bold;
+}
+.detailsRow .applicantDetailValue {
+    font-size: 20px;
+    font-weight: bold;
+}
+.tableDetails {
+    padding: 0px !important;
+}
+.tableDetails .applicantDetailsName {
+    font-weight: Bold;
+    font-size: 25px;
+}
+
+.tableDetails .callToActionImg {
+    margin-top: 10px; 
+    margin-left: 20px; 
+    width: 230px;
+}

@@ -1,0 +1,30 @@
+[
+    {
+      "shopperStatus": 1,
+      "applicantDetails": {
+        "employerName": "General Motors",
+        "grossMonthlyIncome": "$2,000",
+        "identityVerification": true,
+        "incomeType": "W2",
+        "primaryIncomeDataSource": "ADP",
+        "secondaryIncomeDataSource": "ADP"
+      },
+      "desiredMovein": {
+        "seconds": 1710478800,
+        "nanoseconds": 478000000
+      },
+      "unitsize": 3,
+      "xmaxRent": 1.5,
+      "lastName": "Robinson",
+      "coApplicant": {
+        "lastName": "chambers",
+        "firstName": "Ryan"
+      },
+      "firstName": "Brandon",
+      "xminRent": 6,
+      "preapprovalDate": {
+        "seconds": 1709272800,
+        "nanoseconds": 352000000
+      }
+    }
+  ]

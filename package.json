@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase-functions": "^4.7.0",
+    "plaid": "^21.0.0"
+  }
+}
